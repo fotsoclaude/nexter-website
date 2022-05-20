@@ -9,7 +9,7 @@
     display: grid;
     grid-template-rows: 1fr min-content 6rem 1fr;
     grid-template-columns: max-content;
-    grid-row-gap: 1.5rem;
+    row-gap: 1.5rem;
     justify-content: center;
 
     &__logo {
@@ -43,7 +43,7 @@
     &__seeon-logos {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-column-gap: 3rem;
+        column-gap: 3rem;
         justify-items: center;
         img {
             height: 2.5rem;
